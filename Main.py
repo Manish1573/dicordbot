@@ -137,4 +137,4 @@ async def list_members(ctx):
     await ctx.send(f"**Members and Their Roles in the Server:**\n{members_with_roles}")
     
 if __name__ == "__main__":
-    bot.run("MTEzMDgyNzgyNDgzNjY2MTMyOQ.GEKL6a.0DL7XRNncoJZ-t4m7tuybXPgLZI6h24z4Nnouk")
+    bot.run("")
