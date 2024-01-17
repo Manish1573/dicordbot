@@ -8,6 +8,7 @@ import youtube_dl
 load_dotenv()
 # Get the API token from the .env file.
 DISCORD_TOKEN = os.getenv("discord_token")
+API_TOKEN=os.getev(Token)
 
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix='!', intents=intents)
